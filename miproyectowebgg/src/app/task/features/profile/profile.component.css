@@ -1,0 +1,87 @@
+/* Contenedor principal del perfil */
+.profile-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: #f0f2f5; /* Fondo neutro */
+    padding: 20px;
+  }
+  
+  /* Formulario de perfil */
+  .profile-container form {
+    background-color: white; /* Fondo blanco para el formulario */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo */
+    text-align: center;
+  }
+  
+  /* Estilo de los labels */
+  .profile-container form label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Campos de entrada */
+  .profile-container form input[type="text"],
+  .profile-container form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para el campo de texto en foco */
+  .profile-container form input:focus {
+    outline: none;
+    border-color: #1877f2; /* Azul de Facebook */
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(24, 119, 242, 0.2);
+  }
+  
+  /* Estilo de la imagen */
+  .profile-container form img {
+    margin-top: 10px;
+    max-width: 100px; /* Tamaño máximo de la imagen */
+    max-height: 100px;
+    border-radius: 50%; /* Hacer la imagen circular */
+    object-fit: cover; /* Ajustar contenido dentro del contenedor */
+  }
+  
+  /* Botón para guardar */
+  .profile-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2; /* Azul de Facebook */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Hover para el botón de guardar */
+  .profile-container form button:hover {
+    background-color: #165cbd; /* Azul más oscuro */
+  }
+  
+  /* Estilo del componente de configuración de privacidad */
+  app-privacy-settings {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px; /* Ajuste de ancho para coincidir con el formulario */
+  }
+  

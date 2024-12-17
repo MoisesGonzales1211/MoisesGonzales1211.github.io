@@ -1,0 +1,6 @@
+<div class="privacy-settings">
+    <label for="privacyToggle">Privacidad</label>
+    <input id="privacyToggle" type="checkbox" [checked]="isPublic" (change)="togglePrivacy()" />
+    <span>{{ isPublic ? 'Público' : 'Privado' }}</span>
+  </div>
+  

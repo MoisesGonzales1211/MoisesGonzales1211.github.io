@@ -1,0 +1,46 @@
+/* Contenedor principal de los botones */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    gap: 10px; /* Espacio entre los botones */
+    background-color: #f0f2f5; /* Fondo neutro, similar al de Facebook */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados del contenedor */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo común para los botones de navegación */
+  .nav-button {
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #1877f2; /* Azul icónico de Facebook */
+    border: none;
+    border-radius: 6px; /* Bordes ligeramente redondeados */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: capitalize; /* Texto en minúsculas con la primera letra en mayúscula */
+  }
+  
+  /* Hover para los botones */
+  .nav-button:hover {
+    background-color: #165cbd; /* Azul más oscuro al pasar el ratón */
+    transform: translateY(-2px); /* Efecto de elevación */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  }
+  
+  /* Foco en los botones */
+  .nav-button:focus {
+    outline: none;
+    border: 2px solid #165cbd; /* Resaltado de borde en foco */
+  }
+  
+  /* Estilo al hacer clic en los botones */
+  .nav-button:active {
+    background-color: #0e4a8e; /* Fondo más oscuro cuando se hace clic */
+    transform: translateY(0); /* Elimina el efecto de elevación */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce la sombra */
+  }
+  

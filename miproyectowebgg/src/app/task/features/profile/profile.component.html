@@ -1,0 +1,26 @@
+<div class="profile-container">
+  <form [formGroup]="profileForm" (ngSubmit)="saveProfile()">
+    <div>
+      <label for="name">Nombre</label>
+      <input id="name" formControlName="name" type="text" />
+    </div>
+    <div>
+      <label for="career">Carrera</label>
+      <input id="career" formControlName="career" type="text" />
+    </div>
+    <div>
+      <label for="year">Año Académico</label>
+      <input id="year" formControlName="year" type="text" />
+    </div>
+    <div>
+      <label for="profilePicture">Foto de Perfil</label>
+      <input id="profilePicture" type="file" (change)="onFileSelected($event)" />
+      <img
+        *ngIf="profileForm.get('profilePicture')?.value"
+        [src]="profileForm.get('profilePicture')?.value"
+        alt="Foto de Perfil"
+      />
+    </div>
+    <button type="submit">Guardar</button>
+  </form>
+</div>

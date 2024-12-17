@@ -1,0 +1,104 @@
+/* Estilos generales */
+section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Asegura que el cuerpo ocupe el 100% de la altura de la ventana */
+    background-color: #f0f2f5; /* Fondo de Facebook */
+  }
+  
+  /* Contenedor del formulario de registro */
+  .register {
+    background-color: white; /* Fondo blanco para el formulario */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 400px; /* Máximo ancho para que no crezca demasiado */
+    text-align: center;
+  }
+  
+  /* Título */
+  .register h2 {
+    color: #1877f2; /* Azul de Facebook */
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para las etiquetas */
+  .register label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .register input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para el input cuando se enfoca */
+  .register input:focus {
+    outline: none;
+    border-color: #1877f2; /* Resalta el campo seleccionado */
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(24, 119, 242, 0.2);
+  }
+  
+  /* Estilo para el botón */
+  .register button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2; /* Azul de Facebook */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Hover para el botón */
+  .register button:hover {
+    background-color: #165cbd; /* Azul más oscuro */
+  }
+  
+  /* Mensaje de error */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Estilo para el enlace de inicio de sesión */
+  .login-link {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-link a {
+    color: #1877f2; /* Azul del enlace */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+
